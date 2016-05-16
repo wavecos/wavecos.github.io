@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on wavecos</title>
-    <link>http://wavecos.github.io:1313/post/</link>
+    <link>http://wavecos.github.io/post/</link>
     <description>Recent content in Posts on wavecos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Apr 2016 11:36:27 -0400</lastBuildDate>
-    <atom:link href="http://wavecos.github.io:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://wavecos.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Disabling FK in Liquibase</title>
-      <link>http://wavecos.github.io:1313/post/2016-04-14-disabling-constraints-liquibase/</link>
+      <link>http://wavecos.github.io/post/2016-04-14-disabling-constraints-liquibase/</link>
       <pubDate>Thu, 14 Apr 2016 11:36:27 -0400</pubDate>
       
-      <guid>http://wavecos.github.io:1313/post/2016-04-14-disabling-constraints-liquibase/</guid>
+      <guid>http://wavecos.github.io/post/2016-04-14-disabling-constraints-liquibase/</guid>
       <description>&lt;p&gt;I use this for disabling checks when load data from CSV files in Liquibase.&lt;/p&gt;
 
 &lt;p&gt;Just use:&lt;/p&gt;
@@ -35,10 +35,10 @@
     
     <item>
       <title>Playing Remote Audio on Android</title>
-      <link>http://wavecos.github.io:1313/post/2016-02-29-playing-audio-android/</link>
+      <link>http://wavecos.github.io/post/2016-02-29-playing-audio-android/</link>
       <pubDate>Mon, 29 Feb 2016 11:34:47 -0400</pubDate>
       
-      <guid>http://wavecos.github.io:1313/post/2016-02-29-playing-audio-android/</guid>
+      <guid>http://wavecos.github.io/post/2016-02-29-playing-audio-android/</guid>
       <description>
 
 &lt;h2 id=&#34;media-playback:2df414745aaed585d964ee320272c82b&#34;&gt;Media Playback&lt;/h2&gt;
@@ -53,10 +53,10 @@
     
     <item>
       <title>Instalando Docker en Ubuntu 14.04</title>
-      <link>http://wavecos.github.io:1313/post/2016-02-13-ubuntu-docker/</link>
+      <link>http://wavecos.github.io/post/2016-02-13-ubuntu-docker/</link>
       <pubDate>Sat, 13 Feb 2016 11:32:54 -0400</pubDate>
       
-      <guid>http://wavecos.github.io:1313/post/2016-02-13-ubuntu-docker/</guid>
+      <guid>http://wavecos.github.io/post/2016-02-13-ubuntu-docker/</guid>
       <description>
 
 &lt;h2 id=&#34;qué-es-docker:3fa574206cb3f4114dca5af1d2569641&#34;&gt;¿ Qué es Docker?&lt;/h2&gt;
@@ -84,10 +84,10 @@
     
     <item>
       <title>Hello World!</title>
-      <link>http://wavecos.github.io:1313/post/2015-11-20-first-post/</link>
+      <link>http://wavecos.github.io/post/2015-11-20-first-post/</link>
       <pubDate>Fri, 20 Nov 2015 11:26:27 -0400</pubDate>
       
-      <guid>http://wavecos.github.io:1313/post/2015-11-20-first-post/</guid>
+      <guid>http://wavecos.github.io/post/2015-11-20-first-post/</guid>
       <description>&lt;p&gt;This is my first post!&lt;/p&gt;
 </description>
     </item>

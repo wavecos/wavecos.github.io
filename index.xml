@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wavecos</title>
+    <link>http://wavecos.github.io/</link>
+    <description>Recent content on wavecos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Apr 2016 11:36:27 -0400</lastBuildDate>
+    <atom:link href="http://wavecos.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Disabling FK in Liquibase</title>
+      <link>http://wavecos.github.io/post/2016-04-14-disabling-constraints-liquibase/</link>
+      <pubDate>Thu, 14 Apr 2016 11:36:27 -0400</pubDate>
+      
+      <guid>http://wavecos.github.io/post/2016-04-14-disabling-constraints-liquibase/</guid>
+      <description>&lt;p&gt;I use this for disabling checks when load data from CSV files in Liquibase.&lt;/p&gt;
+
+&lt;p&gt;Just use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;sql&amp;gt;SET FOREIGN_KEY_CHECKS=0;&amp;lt;/sql&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;for disable check, and use this for enable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;sql&amp;gt;SET FOREIGN_KEY_CHECKS=1;&amp;lt;/sql&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sample:&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/wavecos/ca082964f8b13ad5d720ba15f3ffdaa3.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Playing Remote Audio on Android</title>
+      <link>http://wavecos.github.io/post/2016-02-29-playing-audio-android/</link>
+      <pubDate>Mon, 29 Feb 2016 11:34:47 -0400</pubDate>
+      
+      <guid>http://wavecos.github.io/post/2016-02-29-playing-audio-android/</guid>
+      <description>
+
+&lt;h2 id=&#34;media-playback:2df414745aaed585d964ee320272c82b&#34;&gt;Media Playback&lt;/h2&gt;
+
+&lt;p&gt;Using &lt;a href=&#34;http://developer.android.com/guide/topics/media/mediaplayer.html&#34;&gt;MediaPlayback&lt;/a&gt; multimedia framework to play a remote resource like:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://a1858.phobos.apple.com/us/r1000/020/Music4/v4/df/a4/d3/dfa4d335-eca0-115f-9d58-3edcb01f3e8e/mzaf_832029698422499277.plus.aac.p.m4a&#34;&gt;http://a1858.phobos.apple.com/us/r1000/020/Music4/v4/df/a4/d3/dfa4d335-eca0-115f-9d58-3edcb01f3e8e/mzaf_832029698422499277.plus.aac.p.m4a&lt;/a&gt;&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/wavecos/b32d4dd36615934ee04c.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Instalando Docker en Ubuntu 14.04</title>
+      <link>http://wavecos.github.io/post/2016-02-13-ubuntu-docker/</link>
+      <pubDate>Sat, 13 Feb 2016 11:32:54 -0400</pubDate>
+      
+      <guid>http://wavecos.github.io/post/2016-02-13-ubuntu-docker/</guid>
+      <description>
+
+&lt;h2 id=&#34;qué-es-docker:3fa574206cb3f4114dca5af1d2569641&#34;&gt;¿ Qué es Docker?&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.docker.com&#34;&gt;Docker&lt;/a&gt; es un proyecto open source que automatiza el despliege de aplicaciones dentro de contenedores de software. mas información &lt;a href=&#34;http://tinyurl.com/mjecdxq&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;instalando-docker-en-ubuntu:3fa574206cb3f4114dca5af1d2569641&#34;&gt;Instalando Docker en Ubuntu.&lt;/h2&gt;
+
+&lt;p&gt;Lo primero es actualizar todos los paquetes de Ubuntu antes de instalar algo.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get update
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ahora instalemos docker con su respectivo paquete:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get install docker.io
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Linkeamos rutas&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo ln -sf /usr/bin/docker.io /usr/local/bin/docker
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>http://wavecos.github.io/post/2015-11-20-first-post/</link>
+      <pubDate>Fri, 20 Nov 2015 11:26:27 -0400</pubDate>
+      
+      <guid>http://wavecos.github.io/post/2015-11-20-first-post/</guid>
+      <description>&lt;p&gt;This is my first post!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

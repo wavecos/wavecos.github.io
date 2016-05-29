@@ -6,8 +6,21 @@
     <description>Recent content on wavecos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Apr 2016 11:36:27 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 16 May 2016 08:05:23 -0400</lastBuildDate>
     <atom:link href="http://wavecos.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>migrating from jekyll to hugo</title>
+      <link>http://wavecos.github.io/post/2016-05-16-migrating-hugo/</link>
+      <pubDate>Mon, 16 May 2016 08:05:23 -0400</pubDate>
+      
+      <guid>http://wavecos.github.io/post/2016-05-16-migrating-hugo/</guid>
+      <description>&lt;p&gt;Ejemplo:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server -w -d ../wavecos.github.io --baseUrl=http://wavecos.github.io --port=80 --appendPort=false -t hugo-cactus-theme --config=&amp;quot;config.toml&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Disabling FK in Liquibase</title>

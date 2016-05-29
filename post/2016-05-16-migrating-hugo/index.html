@@ -7,7 +7,7 @@
 		<meta name="author" content="Alfredo Arias">
 		<meta name="description" content="Describe your website">
 		<meta name="generator" content="Hugo 0.15" />
-		<title>Playing Remote Audio on Android &middot; wavecos</title>
+		<title>migrating from jekyll to hugo &middot; wavecos</title>
 		<link rel="shortcut icon" href="http://wavecos.github.io/images/favicon.ico">
 		<link rel="stylesheet" href="http://wavecos.github.io/css/style.css">
 		<link rel="stylesheet" href="http://wavecos.github.io/css/highlight.css">
@@ -41,23 +41,18 @@
         <section id="wrapper">
             <article class="post">
                 <header>
-                    <h1>Playing Remote Audio on Android</h1>
+                    <h1>migrating from jekyll to hugo</h1>
                     <h2 class="headline">
-                    February 29, 2016 
+                    May 16, 2016 
                     <br>
                     
                     </h2>
                 </header>
                 <section id="post-body">
-                    
+                    <p>Ejemplo:</p>
 
-<h2 id="media-playback:2df414745aaed585d964ee320272c82b">Media Playback</h2>
-
-<p>Using <a href="http://developer.android.com/guide/topics/media/mediaplayer.html">MediaPlayback</a> multimedia framework to play a remote resource like:</p>
-
-<p><a href="http://a1858.phobos.apple.com/us/r1000/020/Music4/v4/df/a4/d3/dfa4d335-eca0-115f-9d58-3edcb01f3e8e/mzaf_832029698422499277.plus.aac.p.m4a">http://a1858.phobos.apple.com/us/r1000/020/Music4/v4/df/a4/d3/dfa4d335-eca0-115f-9d58-3edcb01f3e8e/mzaf_832029698422499277.plus.aac.p.m4a</a></p>
-
-<script src="https://gist.github.com/wavecos/b32d4dd36615934ee04c.js"></script>
+<pre><code>hugo server -w -d ../wavecos.github.io --baseUrl=http://wavecos.github.io --port=80 --appendPort=false -t hugo-cactus-theme --config=&quot;config.toml&quot;
+</code></pre>
 
                 </section>
             </article>
@@ -70,7 +65,7 @@
                         </div>
                     </a>
                 <section id="sharing">
-                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fwavecos.github.io%2fpost%2f2016-02-29-playing-audio-android%2f - Playing%20Remote%20Audio%20on%20Android by @wavecos"><span class="icon-twitter"> Tweet</span></a>
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fwavecos.github.io%2fpost%2f2016-05-16-migrating-hugo%2f - migrating%20from%20jekyll%20to%20hugo by @wavecos"><span class="icon-twitter"> Tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
@@ -86,9 +81,9 @@
             <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'onix';
-    var disqus_identifier = 'http:\/\/wavecos.github.io\/post\/2016-02-29-playing-audio-android\/';
-    var disqus_title = 'Playing Remote Audio on Android';
-    var disqus_url = 'http:\/\/wavecos.github.io\/post\/2016-02-29-playing-audio-android\/';
+    var disqus_identifier = 'http:\/\/wavecos.github.io\/post\/2016-05-16-migrating-hugo\/';
+    var disqus_title = 'migrating from jekyll to hugo';
+    var disqus_url = 'http:\/\/wavecos.github.io\/post\/2016-05-16-migrating-hugo\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
